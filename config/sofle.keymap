@@ -13,12 +13,12 @@
     keymap {
         compatible = "zmk,keymap";
 
-         default_layer {
+        default_layer {
 // ------------------------------------------------------------------------------------------------------------
-// |   `     |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0    | +/ -  |
+// |   `     |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0    | +/-  |
 // |   ESC   |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P    | BKSPC |
 // |   TAB   |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;    |   '   |
-// |CLCK/SHFT|  Z  |  X  |  C   |  V   |  B   |  MUTE  |  | PLAY  |  N   |  M    |  ,    |  .   |   / \  | SHIFT |
+// |CLCK/SHFT|  Z  |  X  |  C   |  V   |  B   |  MUTE  |  | PLAY  |  N   |  M    |  ,    |  .   |   /\  | SHIFT |
 //                 | GUI| LCTRL  | LALT| LWR/[|  SPACE |  |ENTER  | RSE/]|  RALT | RCTRL | RGUI |
             bindings = <
 &kp GRAVE       &kp N1 &kp N2    &kp N3    &kp N4         &kp N5                            &kp N6     &kp N7    &kp N8    &kp N9   &kp N0        &mt MINUS EQUAL
@@ -53,7 +53,7 @@
 	raise_layer {
 // ------------------------------------------------------------------------------------------------------------
 // | BTCLR | BT1 | BT2 |  BT3 |  BT4 |  BT5 |                   | CAPS |       |       |      |       |       |
-// |       |   1 |   2 |   3  |   4  |   5  |                   |   6  |   7   |   8   |   9  |    0  |  F12  |
+// |       |   1 |   2 |   3  |   4  |   5  |                   |   6  |   7   |   8   |   9  |    0  |       |
 // |       |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |       |
 // |       |  -  |  _  |  [   |  {   |  \   |        |  |       |  |   |  }    |  ]    |  =   |   +   |       |
 //               |     |      |      |      |        |  |       |      |       |       |      |
